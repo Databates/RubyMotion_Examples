@@ -8,11 +8,14 @@ either ESPN or Yahoo's mobile optimized web page. The user is then able to view 
 
 Here are the steps of what you can do to get started: 
 
-(1) Run the ![motion create](http://i.imgur.com/oTNJdd6.jpg) command to get the default skeleton
+(1) Run the [motion create](http://i.imgur.com/oTNJdd6.jpg) command to get the default skeleton
 
 (2) Add ProMotion to your ![gem file](http://i.imgur.com/A9C7G2q.jpg).
 
-(3) Modify the ![Default AppDelegate](http://i.imgur.com/x9lPPXo.jpg) to [one that inherits from PM::Delegate](http://i.imgur.com/oGnnT4w.jpg) so that we can use the awesomeness of ProMotion. 
+(3) Modify the Default AppDelegate ![Default AppDelegate](http://i.imgur.com/x9lPPXo.jpg) 
+
+to one that inherits from PM::Delegate and use an on_load method so that we can use the awesomeness of ProMotion: 
+![one that inherits from PM::Delegate](http://i.imgur.com/oGnnT4w.jpg) 
 
 
 
