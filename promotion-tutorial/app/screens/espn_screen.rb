@@ -8,8 +8,8 @@ class EspnScreen < PM::WebScreen
 	def on_load
 		set_nav_bar_button :right, title: "Done", action: :close_about_us_screen
 	#By default a button will appear in the upper left hand corner with the title of the previous screen.
-	#If you don't want that to appear do something like this on line 13
-		set_nav_bar_button :left, title: ""
+	#If you don't want that to appear do something like this on line 12
+		set_nav_bar_button :left, title: "" #See YahooScreen for comparison. 
 	end
 
 	def close_about_us_screen
