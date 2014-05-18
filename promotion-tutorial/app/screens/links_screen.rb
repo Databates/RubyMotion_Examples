@@ -3,7 +3,6 @@ class LinksScreen < PM::TableScreen
 
 	title "Links"  #define the title you want in the navbar
 
-
 	def on_load
 		set_nav_bar_button :left, title: "Home", action: :go_to_welcome_screen
 	end

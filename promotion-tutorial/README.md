@@ -1,29 +1,34 @@
-## Notes on the ProMotion Example
+## Notes on the ProMotion Tutorial
 
 This is a very basic tutorial to get you started using the [ProMotion gem](https://github.com/clearsightstudio/ProMotion). 
 
-This App only presents the user with a a links page.  On the link page the user can select to view 
-either ESPN or Yahoo's mobile optimized web page. The user is then able to view third party sites from within the app. The user also has a navigation bar to navigate back to any previous view. 
+This App has a blank starting page. It only has one link in the navigation bar to view a links page.  
+On the links page the user can select to view either ESPN or Yahoo's mobile optimized web page. The user is then able to view the third party site of their choice from within the app. 
+The navigation bar also provides a link for the user to navigate back to any previous view. 
 
 
 Here are the steps of what you can do to get started: 
 
 (1) Run the [motion create](http://i.imgur.com/oTNJdd6.jpg) command to get the default skeleton
 
-(2) Add ProMotion to your ![gem file](http://i.imgur.com/A9C7G2q.jpg).
+(2) Add ProMotion to your Gem File:  ![gem file](http://i.imgur.com/A9C7G2q.jpg).
 
 (3) Modify the Default AppDelegate ![Default AppDelegate](http://i.imgur.com/x9lPPXo.jpg) 
 
 to one that inherits from PM::Delegate and use an on_load method so that we can use the awesomeness of ProMotion: 
 ![one that inherits from PM::Delegate](http://i.imgur.com/oGnnT4w.jpg) 
 
+(4) Create a Screens Directory. Create the screens as needed. 
+
+(5) View the code to see the rest. 
+
+(6) Run rake to view the app in the iPhone simulator. 
 
 
+#### Here is a link to see a quick ![youtube video](https://www.youtube.com/watch?v=-nJZATTSlGc&feature=youtu.be) on what this simple app does.
 
-### Here is a link to see a quick ![youtube video]() on what this simple app does.
 
-
-Screen Shots: 
+Screen Shots: (work in progress) 
 
 ![Landing Page/Welcome Screen]()
 

@@ -14,7 +14,7 @@ class WelcomeScreen < PM::Screen
 
 	def open_links_screen
 		#open_modal AboutUsScreen.new(nav_bar: true) #screen gets presented modally
-		open_modal LinksScreen.new(nav_bar: true) #screen gets presented modally
+		open LinksScreen.new(nav_bar: true) #screen gets presented modally
 
 	end
 

@@ -1,13 +1,13 @@
 class YahooScreen < PM::WebScreen
 	title "Yahoo"
 
-	def on_load
-		set_nav_bar_button :right, title: "Done", action: :close_about_us_screen
-	end
+	# def on_load
+	# 	set_nav_bar_button :right, title: "Done", action: :close_about_us_screen
+	# end
 
-	def close_about_us_screen
-		close
-	end
+	# def close_about_us_screen
+	# 	close
+	# end
 
 	def content
 		NSURL.URLWithString('https://www.yahoo.com/')
@@ -23,3 +23,7 @@ class YahooScreen < PM::WebScreen
 	end
 
 end
+
+
+
+

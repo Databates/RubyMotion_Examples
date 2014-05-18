@@ -1,15 +1,9 @@
 class EspnScreen < PM::WebScreen
-	#When you use PM::WebScreen you only need a few methods to get everything working
 
 	title "ESPN"  #define the title you want in the navbar
 
-	# Whenever we present anything modally, think about how we are going to close it
-
 	def on_load
-		set_nav_bar_button :right, title: "Done", action: :close_about_us_screen
-	#By default a button will appear in the upper left hand corner with the title of the previous screen.
-	#If you don't want that to appear do something like this on line 12
-		set_nav_bar_button :left, title: "" #See YahooScreen for comparison. 
+		set_nav_bar_button :left, title: "Back", action: :close_about_us_screen
 	end
 
 	def close_about_us_screen
@@ -17,7 +11,6 @@ class EspnScreen < PM::WebScreen
 	end
 
 #Now, let's tell our webscreen what we want our content to be
-
 	def content
 		#easily do this by returning an NSURL
 		NSURL.URLWithString('http://espn.go.com/')
