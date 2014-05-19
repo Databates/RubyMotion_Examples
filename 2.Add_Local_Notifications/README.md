@@ -1,22 +1,14 @@
-## Getting Started with ProMotion
+## Adding Local Notifications with Motion-Takeoff
 
-This is a very basic tutorial to get you started using the [ProMotion gem](https://github.com/clearsightstudio/ProMotion). 
-
-
-Link to 
-https://github.com/MohawkApps/motion-takeoff
+Now we are going to add local notification to our simple app using the [Motion-Takeoff gem](https://github.com/MohawkApps/motion-takeoff). 
 
 
-#### Here is a link to see a quick [youtube video](https://www.youtube.com/watch?v=-nJZATTSlGc&feature=youtu.be) on what this simple app does.
+
+#### View the Local notification example on this [youtube video]() link. (coming soon)
 
 
-Screen Shots: (work in progress) 
+Screen Shot of Local Notification:
 
-![Landing Page/Welcome Screen]()
+![Local Notification](http://i.imgur.com/Jbuy0hq.jpg)
 
-![Links Page]()
-
-![External Link to ESPN's mobile optimized website](http://i.imgur.com/RBL9N2g.jpg)
-
-![External Link to Yahoo's mobile optimied website](http://i.imgur.com/3nSLAYZ.jpg)
 
