@@ -25,7 +25,7 @@ to one that inherits from PM::Delegate and use an on_load method so that we can 
 (6) Run rake to view the app in the iPhone simulator. 
 
 
-#### Here is a link to see a quick ![youtube video](https://www.youtube.com/watch?v=-nJZATTSlGc&feature=youtu.be) on what this simple app does.
+#### Here is a link to see a quick [youtube video](https://www.youtube.com/watch?v=-nJZATTSlGc) on what this simple app does.
 
 
 Screen Shots: (work in progress) 
