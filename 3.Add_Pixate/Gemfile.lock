@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ProMotion (1.2.0)
+      methadone (~> 1.3)
+      motion-require (~> 0.2)
+    bubble-wrap (1.6.0)
+      bubble-wrap-http (= 1.6.0)
+    bubble-wrap-http (1.6.0)
+    methadone (1.4.0)
+      bundler
+    motion-require (0.2.0)
+    motion-takeoff (0.0.5)
+      bubble-wrap (> 1.0.0)
+    rake (10.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProMotion
+  motion-takeoff
+  rake
