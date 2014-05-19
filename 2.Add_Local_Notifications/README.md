@@ -9,6 +9,6 @@ Now we are going to add local notification to our simple app using the [Motion-T
 
 Screen Shot of Local Notification:
 
-![Local Notification](http://i.imgur.com/Jbuy0hq.jpg)
+![Local Notification](http://i.imgur.com/gqq6orr.jpg)
 
 

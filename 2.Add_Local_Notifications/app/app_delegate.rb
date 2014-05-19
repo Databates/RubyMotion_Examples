@@ -6,7 +6,7 @@ class AppDelegate < PM::Delegate
 
 	def applicationDidEnterBackground(application)
 	  Takeoff::Reminders.schedule(
-	    body: "Fires 2 seconds after the user closes your app.",
+	    body: "Raise a custom local notification for your user.",
 	    fire_date: 2 #seconds
 	  )
 
