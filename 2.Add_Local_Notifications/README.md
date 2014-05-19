@@ -4,7 +4,7 @@ Now we are going to add local notification to our simple app using the [Motion-T
 
 
 
-#### View the Local notification example on this [youtube video]() link. (coming soon)
+#### View the Local notification example on this [youtube video](http://youtu.be/GQB5VFzX2PI) link.
 
 
 Screen Shot of Local Notification:
